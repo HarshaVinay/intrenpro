@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        p {
+            color: white;
+            font-size: 11px;
+        }
+
+        div:nth-child(1) {
+            margin-left: 50px;
+        }
+
+        div:nth-child(2) {
+            margin-right: -20px;
+        }
+
+        div:nth-child(3) {
+            margin-left: 42px;
+        }
+
+        div:nth-child(4) {
+            margin-left: 0px;
+        }
+
+        .headpart {
+            text-align: left;
+            font-weight: bolder;
+            color: white;
+            font-size: 15px;
+        }
+
+        hr {
+            margin-left: 0px;
+            margin-top: -10px;
+            border: none;
+            width: 50%;
+            background: orangered;
+            height: 3px;
+            border-radius: 2px;
+        }
+
+        div {
+            display: inline-block;
+            background-color: inherit;
+            border: none;
+        }
+
+        li {
+            margin: 10px 10px 10px -2px;
+        }
+
+        ul {
+            color: white;
+            font-size: 11px;
+            margin-left: -25px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: orangered;
+            text-decoration: underline;
+        }
+        nav {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+
+        @media only screen and (min-width: 750px) {
+            div {
+
+
+            }
+        }
+    </style>
+</head>
+
+<body style="background: black; margin: 0%; border: none; padding: 0%;">
+    <nav>
+        <div>
+            <p class="headpart"><strong>Company</strong></p>
+            <hr>
+            <p><a href="">About Us</a></p>
+            <p><a href="">Contact Us</a></p>
+            <p><a href="">Our Services</a></p>
+            <p><a href="">Privacy POlicy</a></p>
+        </div>
+        <div>
+            <p class="headpart"><strong>Get Help</strong></p>
+            <hr>
+            <p><a href="">FAQ</a></p>
+            <p><a href="">Shipping</a></p>
+            <p><a href="">Retuns</a></p>
+            <p><a href="">Payment Options</a></p>
+        </div>
+        <div>
+            <p class="headpart"><strong>Online Shop</strong></p>
+            <hr>
+            <p><a href="">Blogs</a></p>
+            <p><a href="">Watch</a></p>
+            <p><a href="">Shoes</a></p>
+            <p><a href="">Bress</a></p>
+        </div>
+        <div>
+            <p class="headpart"><strong>Follow Us</strong></p>
+            <hr>
+            <ul>
+                <li><a href="">instagram</a></li>
+                <li><a href="">linked-in</a></li>
+                <li><a href="">youtube</a></li>
+                <li><a href="">twitter</a></li>
+            </ul>
+        </div>
+    </nav>
+</body>
+
+</html>

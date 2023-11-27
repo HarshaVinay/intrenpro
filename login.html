@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-image: url('grad1.jpg');
+            background-size: cover;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div {
+            background-color: aliceblue;
+            width: 80%; 
+            max-width: 400px; 
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        h1 {
+            color: black;
+        }
+
+        hr {
+            margin: 10px 0;
+        }
+
+        input {
+            margin-bottom: 10px;
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-bottom: 2px solid #333;
+            box-sizing: border-box;
+            font-size: 16px;
+            transition: border-bottom-color 0.3s ease-in-out;
+        }
+
+        input:focus {
+            outline: none;
+            border-bottom-color: blue;
+        }
+
+        button {
+            color: #333;
+            background-color: aliceblue;
+            border-radius: 20px;
+            padding: 10px;
+            width: 100%;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        button:hover {
+            color: white;
+            background-color: #8a2be2;
+        }
+
+        p {
+            color: #333;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        a {
+            color: #8a2be2;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        #forgot {
+            margin-left: -210px;
+            color: #333;
+            display: block;
+            margin-top: 10px;
+        }
+
+        #forgot:hover {
+            color: #8a2be2;
+        }
+
+        @media only screen and (max-width: 600px) {
+            div {
+                width: 70%;
+            }
+
+            #forgot {
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Login</h1>
+        <hr>
+        <form action="login.html">
+            <input type="text" id="User_name" name="User_name" placeholder="User Name">
+            <br>
+            <input type="password" name="password" id="password" placeholder="Password">
+            <br>
+            <a href="forgot" id="forgot">Forgot Password?</a><br>
+            <button type="submit"><b>Login</b></button>
+            <br>
+            <a href="index.html" id="back"><button type="button"><b>Close</b></button></a>
+            <p>Not a Member? <a href="register.html">Register Here</a></p>
+        </form>
+    </div>
+</body>
+
+</html>
